@@ -9,10 +9,18 @@
 
     <style type="text/css">
         body{
+            /*position: relative;*/
             margin: 0;
             padding: 0;
             background-color: black;
             font-size: 12px;
+        }
+        .tips {
+            position: absolute;
+            width: 100%;
+            top: 10%;
+            text-align: center;
+            font-size: 16px;
         }
         .iphone {
             width: 340px;
@@ -39,7 +47,9 @@
 
     <body>
     <!-- 用于验证 fullpage.js 切换页面，以及内容组织结构可用，组件能够进行动画 -->
-    <div class="iphone"></div>
+    <div class="iphone">
+        <div class="tips">请点击</div>
+    </div>
 
     </body>
     <script type="text/javascript">
